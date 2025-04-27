@@ -32,6 +32,18 @@
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 9998;
     }
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
 </style>
   </head>
   <body>
@@ -41,6 +53,9 @@
 <div class="dialog-box" id="dialog-box">
     <h2>Launching Game</h2>
     <p>Please Wait...</p>
+    <p id="message3">Not affiated with Roblox in any way</p>
+    <p id="installed">This is taking a long time do you have Roblox instaled?</p>
+    <a id="install-roblox" href="https://www.roblox.com/download" target="_blank">Download Roblox</a>
 </div>
   <script>
 		function openDialog() {
@@ -53,18 +68,36 @@
 			document.getElementById('overlay').style.display = 'none';
 		}
 
-
 		openDialog()
+
+    document.getElementById('install-roblox').style.display = 'none';
+    document.getElementById('installed').style.display = 'none';
+
 	  const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     
     const id = urlParams.get('id');
     console.log("PlaceId:", id);
-    if (id !== null) {
+    setTimeout(function() {
+      if (id !== null) {
         window.location.href = "roblox://placeId="+ id;
-    } else {
-        window.location.href = "roblox://";
-    }
+      } else {
+         window.location.href = "roblox://";
+     }
+     setTimeout(function() {
+      const para = document.createElement("p");
+      const node = document.createTextNode("This is taking a long time do you have Roblox instaled?");
+      para.appendChild(node);
+      const element = document.getElementById("dialog-box");
+      element.appendChild(para);
+      const element2 = document.getElementById("message3");
+      element2.remove();
+      node.remove();
+      document.getElementById('install-roblox').style.display = 'block';
+      document.getElementById('installed').style.display = 'block';
+
+    }, 15000);
+    }, 1000);
 	</script>
   </body>
 </html>
