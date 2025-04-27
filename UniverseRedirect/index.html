@@ -6,7 +6,7 @@
   <Title>Loading...</Title>
   <style>
     body {
-       background-image: url("paper.gif");
+       background-image: url("https://github.com/JV-lab-create/JV-lab-create.github.io/blob/main/images/roblox.jpg?raw=true");
     }
     /* Styles for the dialog box */
     .dialog-box {
@@ -39,7 +39,7 @@
 <div class="overlay" id="overlay"></div>
 
 <div class="dialog-box" id="dialog-box">
-    <h2>Launching</h2>
+    <h2>Launching Game</h2>
     <p>Please Wait...</p>
 </div>
   <script>
@@ -57,11 +57,14 @@
 		openDialog()
 	  const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-
+    
     const id = urlParams.get('id');
     console.log("PlaceId:", id);
-
-	window.location.href = "roblox://placeId="+ id;
+    if (id !== null) {
+        window.location.href = "roblox://placeId="+ id;
+    } else {
+        window.location.href = "roblox://";
+    }
 	</script>
   </body>
 </html>
