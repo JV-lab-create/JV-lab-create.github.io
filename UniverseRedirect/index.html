@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <Title>Loading...</Title>
+  <style>
+    /* Styles for the dialog box */
+    .dialog-box {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+    }
+    /* Styles for the overlay */
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+    }
+</style>
+  </head>
+  <body>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="dialog-box" id="dialog-box">
+    <h2>Loading...</h2>
+    <p>Please Wait we are trying to load the page...</p>
+</div>
+  <script>
+		function openDialog() {
+			document.getElementById('dialog-box').style.display = 'block';
+			document.getElementById('overlay').style.display = 'block';
+		}
+	
+		function closeDialog() {
+			document.getElementById('dialog-box').style.display = 'none';
+			document.getElementById('overlay').style.display = 'none';
+		}
+
+    function delayedFunction() {
+    window.location.href = "https://jv-lab-create.github.io";
+    }
+
+		openDialog()
+	  const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    const id = urlParams.get('id');
+    console.log("PlaceId:", id);
+
+	window.location.href = "roblox://placeId="+ id;
+  setTimeout(delayedFunction, 3000);
+	</script>
+  </body>
+</html>
