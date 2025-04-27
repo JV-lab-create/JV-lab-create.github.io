@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="overlay" id="overlay"></div>
+
+        <div class="dialog-box" id="dialog-box">
+            <h2 id="title">[Title]</h2>
+            <p id="content">[Content]</p>
+            <button id="buttion" class="button" onclick="Buttion()">[Buttion]</button>
+        </div>
+        <script>
+            document.body.style.backgroundColor = background;
+            const element = document.getElementById("button");
+            if (backgroundimg == "bg1") {
+                document.body.style.backgroundImage = "url('images/bg1.jpg')";
+            }
+            if (backgroundimg == "roblox") {
+                document.body.style.backgroundImage = "url('images/roblox.jpg')";
+            }
+            if (content !== null) {
+                document.getElementById("content").innerHTML = content;
+            } else {
+                document.getElementById("content").innerHTML = "No content yet.";
+            }
+            if (title !== null) {
+                document.getElementById("title").innerHTML = title;
+            } else {
+                document.getElementById("title").innerHTML = "No Title";
+            }
+            if (buttiontext !== null) {
+                document.getElementById("buttion").innerHTML = buttiontext;
+            } else {
+                document.getElementById("buttion").innerHTML = "No Name";
+            }
+            if (url == null) {
+                buttion.remove();
+            }
+            document.title = pagetitle;
+            openDialog()
+        </script>
+    </body>
+</html>
