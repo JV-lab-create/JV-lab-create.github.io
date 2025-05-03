@@ -39023,8 +39023,42 @@ __webpack_require__.r(__webpack_exports__);
   extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
   iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account.",
+    defaultMessage: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene.",
     id: "googleaith.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Discord Auth",
+    id: "discordauth.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
+  iconURL: "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Login with discord to your projects. Identify users by ID and username in a secure and easy way! Created by enderhacker.",
+    id: "discordauth.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Git Penguin",
+    id: "gitpenguin.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/justablock/gitpenguin.js',
+  iconURL: "https://extensions.penguinmod.com/images/justablock/gitpenguin.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Make requests and control the files for your GitHub repository. Created by justablock.",
+    id: "gitpenguin.description"
   }),
   incompatibleWithScratch: true,
   tags: ['pm'],
@@ -39059,6 +39093,40 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Advanced Audio Engine with complex Sound Control, Audio Effects and more",
     id: "tune-shark-v3.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Spotify",
+    id: "spotify.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Spotify.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Spotify.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch Statistics, Information, and Play Songs from Spotify",
+    id: "spotify.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "SoundCloud API",
+    id: "soundcloud-api.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/SoundCloud-API.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/SoundCloud-API.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch Tracks, Artists, and Statistics from Soundcloud",
+    id: "soundcloud-api.description"
   }),
   incompatibleWithScratch: true,
   tags: ['se'],
