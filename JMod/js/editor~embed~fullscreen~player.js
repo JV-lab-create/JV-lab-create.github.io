@@ -38827,23 +38827,6 @@ __webpack_require__.r(__webpack_exports__);
   featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Variables Expanded",
-    id: "ve.name",
-    values: {
-      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
-    }
-  }),
-  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Variables-Expanded.js',
-  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Variables-Expanded.svg",
-  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "New Variable Blocks and New Variable Monitors",
-    id: "ve.description"
-  }),
-  incompatibleWithScratch: true,
-  tags: ['se'],
-  featured: true
-}, {
-  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Popup Phoenix",
     id: "pp.name",
     values: {
@@ -38861,7 +38844,7 @@ __webpack_require__.r(__webpack_exports__);
   featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Better Input \u26A0\uFE0F",
+    defaultMessage: "Better Input \u26A0\uFE0F Deprecated, please use Popup-Phoenix \u26A0\uFE0F",
     id: "bi.name",
     values: {
       APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
@@ -39025,6 +39008,295 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Better Text to Speech using the TikTok API",
     id: "ttss.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Google Auth",
+    id: "googleauth.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
+  iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account.",
+    id: "googleaith.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Toast Notifications",
+    id: "toastnotifications.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
+  iconURL: "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!",
+    id: "gtoastnotifications.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Tune Shark-V3",
+    id: "tune-shark-v3.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark-V3.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark-V3.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Advanced Audio Engine with complex Sound Control, Audio Effects and more",
+    id: "tune-shark-v3.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Tune Shark",
+    id: "tune-shark.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Outdated Sound Engine for playing sounds. \u26A0\uFE0F Please use Tune Shark V3 \u26A0\uFE0F",
+    id: "tune-shark.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Display Text",
+    id: "display-text.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Display-Text.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Display-Text.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Display Advanced Text in your Projects",
+    id: "display-text.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch Plus",
+    id: "fetch-plus.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Plus.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Fetch-Plus.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch",
+    id: "fetch-plus.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Files Expanded",
+    id: "files-expanded.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Files-Expanded.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Files-Expanded.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Expansion of GarboMuffin's File Extension",
+    id: "files-expanded.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "QR Codes",
+    id: "qrcode.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/QR-Codes.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/QR-Codes.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Create and Read QR Codes on the Client",
+    id: "qrcode.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Hyper Sense",
+    id: "hyper-sense.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Hyper-Sense.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Hyper-Sense.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "New Sensing Blocks",
+    id: "hyper-sense.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Geolocation",
+    id: "geolocation.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Geolocation.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Geolocation.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Get users' Location and calculate Real-World Distances",
+    id: "geolocation.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Speech Bubbles",
+    id: "speech-bubbles.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Speech-Bubbles.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Speech-Bubbles.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Customizable Speech Bubbles",
+    id: "speech-bubbles.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "YouTube Operations",
+    id: "youtube.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/YouTube-Operations.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/YouTube-Operations.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch and play Youtube videos and statistics in your Project",
+    id: "youtube.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Recording",
+    id: "recording.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Recording.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Recording.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Blocks for Recording your Microphone while your Project runs",
+    id: "recording.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Pause Utilities",
+    id: "pause.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pause-Utilities.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Pause-Utilities.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Pause your Project, Scripts, and Sprites",
+    id: "pause.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Advanced Messages",
+    id: "advanced-messages.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Advanced-Messages.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Advanced-Messages.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "New Message Blocks for Advanced, Non-Vanilla Purposes",
+    id: "advanced-messages.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Messages Plus",
+    id: "messagesplus.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Messages-Plus.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Messages-Plus.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Powerful New Message Blocks that work with Vanilla Messages",
+    id: "messagesplus.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "DOM Selector",
+    id: "domselector.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/DOM-Selector.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/DOM-Selector.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Read Elements and Create Events from the website HTML",
+    id: "domselector.description"
   }),
   incompatibleWithScratch: true,
   tags: ['se'],
@@ -39606,13 +39878,16 @@ __webpack_require__.r(__webpack_exports__);
   intlLabel: 'Turbowarp'
 }, {
   tag: 'pm',
-  intlLabel: 'Penguin Mod'
+  intlLabel: 'PenguinMod'
 }, {
   tag: 'se',
   intlLabel: 'Sharkpools Extensions'
 }, {
+  tag: 'pl',
+  intlLabel: 'Programming Languages'
+}, {
   tag: 'eg',
-  intlLabel: 'Extension Gallerys'
+  intlLabel: 'Collections'
 }]);
 
 /***/ }),
