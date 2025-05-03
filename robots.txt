@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /*/J-Mod/embed
+Disallow: J-Mod/embed
