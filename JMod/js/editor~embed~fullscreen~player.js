@@ -39039,34 +39039,306 @@ __webpack_require__.r(__webpack_exports__);
   featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Google Auth",
-    id: "googleauth.name",
+    defaultMessage: "Boxed Physics",
+    id: "boxedphysics.name",
     values: {
       APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
     }
   }),
-  extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
-  iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+  extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Box2D.js',
+  iconURL: "https://extensions.penguinmod.com/images/pooiod/B2Dimg.svg",
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene.",
-    id: "googleaith.description"
+    defaultMessage: "Implements the Box2D physics engine into PenguinMod, adding joints, springs, etc. This is different from TurboWarp's implementation. Created by pooiod7.",
+    id: "boxedphysics.description"
   }),
   incompatibleWithScratch: true,
   tags: ['pm'],
   featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Discord Auth",
-    id: "discordauth.name",
+    defaultMessage: "Object",
+    id: "object.name",
     values: {
       APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
     }
   }),
-  extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
-  iconURL: "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.png",
+  extensionId: 'https://extensions.penguinmod.com/extensions/skyhigh173/object.js',
+  iconURL: "https://extensions.penguinmod.com/images/skyhigh173/object.svg",
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Login with discord to your projects. Identify users by ID and username in a secure and easy way! Created by enderhacker.",
-    id: "discordauth.description"
+    defaultMessage: "Handle large JSON files at an extreme speed. Created by skyhigh173.",
+    id: "object.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Update File (Direct Access)",
+    id: "updatefile.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Anonymous_cat1/updateFile.js',
+  iconURL: "https://extensions.penguinmod.com/images/Anonymous_cat1/updateFile.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A simple extension that uses the File System Access API to update files dynamically. \u26A0\uFE0F File System Access is not supported by all browsers. Projects can maliciously edit files that you open. \u26A0\uFE0F Created by Anonymous-cat1.",
+    id: "updatefile.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "3D Math",
+    id: "3dmath.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/3DMath.js',
+  iconURL: "https://extensions.penguinmod.com/images/ObviousAlexC/3DMath.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A handful of utilities for making your own sprite-based 3D engine Created by pinksheep2917.",
+    id: "3dmath.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Scope Variable",
+    id: "scopevariables.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/0znzw/ScopeVars.js',
+  iconURL: "https://extensions.penguinmod.com/images/0znzw/ScopeVars.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Manage your variables in a block-like structure. \u26A0\uFE0F This extension uses unstable techniques that may not always work. \u26A0\uFE0F Created by yuri-kiss.",
+    id: "scopevariables.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Dictation",
+    id: "dictation.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Dictation.js',
+  iconURL: "https://extensions.penguinmod.com/images/pooiod/Dictation.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Convert your voice into text. (not supported in all browsers) Created by pooiod7.",
+    id: "dictation.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Background Remover",
+    id: "backgroundremover.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/dumzdev/removebg.js',
+  iconURL: "https://extensions.penguinmod.com/images/dumzdev/removebgbanner.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Removes background from images. Created by dumzdev.",
+    id: "backgroundremover.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "E2EE",
+    id: "e2ee.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/e2ee.js',
+  iconURL: "https://extensions.penguinmod.com/images/MikeDev101/e2ee.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A general-purpose E2EE (End-to-End Encryption) extension for Scratch. Created by MikeDev101.",
+    id: "e2ee.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "WebRTC",
+    id: "webrtc.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/webrtc.js',
+  iconURL: "https://extensions.penguinmod.com/images/MikeDev101/webrtc.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A barebones WebRTC implementation. Created by MikeDev101.",
+    id: "webrtc.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Random Utilities",
+    id: "randomutilities.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/random_utils.js',
+  iconURL: "https://extensions.penguinmod.com/images/Gen1x/randomutils.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Many blocks related to generating random values, including seed-based number generation, true number generation, UUID's, random strings, etc. Created by G1nX.",
+    id: "randomutilities.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Cockatiel Location",
+    id: "location.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/bruhbeast-pixel/CockatielLocation.js',
+  iconURL: "https://extensions.penguinmod.com/images/bruhbeast-pixel/CockatielLocation.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch Users' IP Addresses and Location. Created by bruhbeast-pixel.",
+    id: "location.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "More Types",
+    id: "moretypes.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
+  iconURL: "https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Adds more value types to PenguinMod, implementing Functions, Objects, Arrays, Sets, Maps, Symbols and Nothing. Created by VeryGoodScratcher42.",
+    id: "moretypes.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "PenguinAI",
+    id: "penguinai.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
+  iconURL: "https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Talk to AI! Use Models like DALL-E-3, GPT, LLama, Claude, and more! Created by MubiLop. \u26A0\uFE0F\u26A0\uFE0FAI models can generate unintended or inappropriate output. Some AI models may also become temporarily inaccessible. Use at your own risk.\u26A0\uFE0F\u26A0\uFE0F",
+    id: "penguinai.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Spritesheeter",
+    id: "spritesheeter.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/spritesheeter.js',
+  iconURL: "https://extensions.penguinmod.com/images/MubiLop/spritesheeter.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Load and manipulate spritesheets with customizable frames and XML support Created by MubiLop.",
+    id: "spritesheeter.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Toast Notifications",
+    id: "toast_notifications.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
+  iconURL: "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension! Created by MubiLop. Additional code by themeatly2 and ddededodediamante",
+    id: "toast_notifications.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Number Utilities",
+    id: "number_utiliteies.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/numutils.js',
+  iconURL: "https://extensions.penguinmod.com/images/MubiLop/numutils.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Adds blocks for number formatting and manipulation. Created by MubiLop. Art made by hazel",
+    id: "number_utiliteies.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Mathematics",
+    id: "mathematics.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/jwklong/mathematics.js',
+  iconURL: "https://extensions.penguinmod.com/images/jwklong/mathematics.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Complicated maths extension for nerds. Created by jwklong.",
+    id: "mathematics.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Big Decimal",
+    id: "bigdecimal.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/qxsck/big-decimal.js',
+  iconURL: "https://extensions.penguinmod.com/images/qxsck/big-decimal.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "High precision operations. (Support decimals) Created by qxsck.",
+    id: "bigdecimal.description"
   }),
   incompatibleWithScratch: true,
   tags: ['pm'],
@@ -39090,6 +39362,142 @@ __webpack_require__.r(__webpack_exports__);
   featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Google Auth",
+    id: "googleauth.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
+  iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene.",
+    id: "googleaith.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Pang API",
+    id: "pangapi.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/SammerLOL/pangapi.js',
+  iconURL: "https://extensions.penguinmod.com/images/SammerLOL/pangapi.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Fetch information from the PenguinMod API. Created by oc9x97.",
+    id: "pangapi.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Discord Auth",
+    id: "discordauth.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
+  iconURL: "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Login with discord to your projects. Identify users by ID and username in a secure and easy way! Created by enderhacker.",
+    id: "discordauth.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Twitch",
+    id: "twitch.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/bop_tw/Twitch.js',
+  iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Communicate with your Twitch Chat on PenguinMod! PenguinMod or JMod is not affiliated with Twitch. Created by bop_tw.",
+    id: "twitch.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Chess",
+    id: "chess.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/chess-ext.js',
+  iconURL: "https://extensions.penguinmod.com/images/Gen1x/chess-ext.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A powerful extension about Chess. It allows to create a Chessboard, manage chess games, and use Stockfish 17 in your projects. Created by G1nX.",
+    id: "chess.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "TurboWeather",
+    id: "turboweather.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/RubyDevs/turboweather.js',
+  iconURL: "https://extensions.penguinmod.com/images/RubyDevs/turboweather.webp",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Show weather and location data for any place in our world. Data that could be used for doxxing is deleted from results. Created by RubyDevs.",
+    id: "turboweather.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "CORS Proxy",
+    id: "corsproxy.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/NamelessCat/corsproxy.js',
+  iconURL: "https://extensions.penguinmod.com/images/NamelessCat/corsproxy.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Accessible CORS Proxies for fetching information with PenguinMod. Created by NamelessCat.",
+    id: "corsproxy.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Extension Exposer",
+    id: "extensionexposer.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/extexp.js',
+  iconURL: "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Access the raw functions from other extensions. Created by TheShovel.",
+    id: "extensionexposer.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Format Numbers",
     id: "format-numbers.name",
     values: {
@@ -39101,23 +39509,6 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Format large numbers into AD standard, fixed decimal, comma separated, or scientific notation.  Created by DogeisCut. Gallery banner by Dillon",
     id: "format-numbers.description"
-  }),
-  incompatibleWithScratch: true,
-  tags: ['pm'],
-  featured: true
-}, {
-  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Toast Notifications",
-    id: "toastnotifications.name",
-    values: {
-      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
-    }
-  }),
-  extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
-  iconURL: "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
-  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
-    defaultMessage: "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!",
-    id: "toastnotifications.description"
   }),
   incompatibleWithScratch: true,
   tags: ['pm'],
@@ -39764,6 +40155,9 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   tag: 'wacky',
   intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].wacky
+}, {
+  tag: 'ui',
+  intlLabel: _tag_messages_js__WEBPACK_IMPORTED_MODULE_0__["default"].ui
 }]);
 
 /***/ }),
@@ -39861,6 +40255,10 @@ __webpack_require__.r(__webpack_exports__);
   music: {
     "id": "gui.libraryTags.music",
     "defaultMessage": "Music"
+  },
+  ui: {
+    "id": "gui.libraryTags.ui",
+    "defaultMessage": "UI"
   },
   notes: {
     "id": "gui.libraryTags.notes",
