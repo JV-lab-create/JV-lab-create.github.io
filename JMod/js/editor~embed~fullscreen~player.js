@@ -39249,8 +39249,8 @@ __webpack_require__.r(__webpack_exports__);
       APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
     }
   }),
-  extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
-  iconURL: "https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.png",
+  extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/penguingpt.js',
+  iconURL: "https://extensions.penguinmod.com/images/MubiLop/penguingpt.png",
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Talk to AI! Use Models like DALL-E-3, GPT, LLama, Claude, and more! Created by MubiLop. \u26A0\uFE0F\u26A0\uFE0FAI models can generate unintended or inappropriate output. Some AI models may also become temporarily inaccessible. Use at your own risk.\u26A0\uFE0F\u26A0\uFE0F",
     id: "penguinai.description"
@@ -39372,7 +39372,7 @@ __webpack_require__.r(__webpack_exports__);
   iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene.",
-    id: "googleaith.description"
+    id: "googleauth.description"
   }),
   incompatibleWithScratch: true,
   tags: ['pm'],
@@ -39492,6 +39492,244 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Access the raw functions from other extensions. Created by TheShovel.",
     id: "extensionexposer.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "More Fields",
+    id: "morefields.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js',
+  iconURL: "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Custom Field Types Created by yuri-kiss.",
+    id: "morefields.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Beepbox Player",
+    id: "beepboxplayer.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/BeepBoxPlayer.js',
+  iconURL: "https://extensions.penguinmod.com/images/DogeisCut/BeepBoxPlayer.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Play, edit, and read songs from any BeepBox mod directly from the URL or JSON! Created by DogeisCut.",
+    id: "beepboxplayer.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "File Upload",
+    id: "fileupload.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Codefoxy/cfupload.js',
+  iconURL: "https://extensions.penguinmod.com/images/Codefoxy/cfupload.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Upload files to the Network, can also used with Files extension. Created by Codefoxy.",
+    id: "fileupload.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "WindowHasher",
+    id: "windowhasher.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/WindowHasher.js',
+  iconURL: "https://extensions.penguinmod.com/images/pooiod/WindowHasher.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Interact with URL hash: the part of the URL after a hashtag Created by pooiod7.",
+    id: "windowhasher.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Scratchblocks",
+    id: "scratchblocks.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Scratchblocks.js',
+  iconURL: "https://extensions.penguinmod.com/images/pooiod/Scratchblocks.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Generate blocks in the Scratch3, or Scratch2 format. Created by pooiod7.",
+    id: "scratchblocks.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "CATS",
+    id: "cats.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/CATS.js',
+  iconURL: "https://extensions.penguinmod.com/images/Gen1x/cats.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Blocks related to cats. Created by G1nX.",
+    id: "cats.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Counter++",
+    id: "counterplusplus.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/MrRedstonia/counterplusplus.js',
+  iconURL: "https://extensions.penguinmod.com/images/MrRedstonia/counterplusplus.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Count anything, at any time, in PenguinMod! Created by MrRedstonia.",
+    id: "counterplusplus.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "How many lines?",
+    id: "howmanylines.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js',
+  iconURL: "https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Blocks to determine the amount of new lines in a piece of text. Created by Monochromasity.",
+    id: "howmanylines.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Free Servers",
+    id: "freeservers.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/WAYLIVES/FreeServers.js',
+  iconURL: "https://extensions.penguinmod.com/images/WAYLIVES/FreeServersIMG.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Here you can find a free server for your projects. And also check whether it is working now or not. \u0417\u0434\u0435\u0441\u044C \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043D\u0430\u0439\u0442\u0438 \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0441\u0435\u0440\u0432\u0435\u0440 \u0434\u043B\u044F \u0441\u0432\u043E\u0438\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432. \u0410 \u0442\u0430\u043A\u0436\u0435 \u043F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C, \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u043E\u043D \u0441\u0435\u0439\u0447\u0430\u0441 \u0438\u043B\u0438 \u043D\u0435\u0442. Created by WAYLIVES.",
+    id: "freeservers.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Text To Speech: Redone",
+    id: "ttsredone.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/PuzzlingGGG/ttsr.js',
+  iconURL: "https://extensions.penguinmod.com/images/PuzzlingGGG/TTSR.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "A better alternitive to the base text to speech extension. Powered by the TTStool API Created by PuzzlingGGG.",
+    id: "ttsredone.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Video Sharing",
+    id: "videosharing.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/VideoSharing.js',
+  iconURL: "https://extensions.penguinmod.com/images/pooiod/VideoSharing.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Share your screen or camera to your projects! Created by pooiod.",
+    id: "videosharing.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "oneko",
+    id: "oneko.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/oneko.js',
+  iconURL: "https://extensions.penguinmod.com/images/TheShovel/thumbnail-oneko.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Cute cat that follows you on the block area. Created by TheShovel.",
+    id: "oneko.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "oneko",
+    id: "oneko.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/oneko.js',
+  iconURL: "https://extensions.penguinmod.com/images/TheShovel/thumbnail-oneko.png",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Cute cat that follows you on the block area. Created by TheShovel.",
+    id: "oneko.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['pm'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "GPU.sb3",
+    id: "gpu.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://extensions.penguinmod.com/extensions/derpygamer2142/gpusb3.js',
+  iconURL: "https://extensions.penguinmod.com/images/derpygamer2142/gpusb3.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "\u26A0\uFE0FWebGPU is still experimental and not supported by all browsers and does not work when packaged to electron. Check compatibility at webgpu.io.\u26A0\uFE0FUse WebGPU compute shaders to accelerate your projects. Created by derpygamer2142.",
+    id: "gpu.description"
   }),
   incompatibleWithScratch: true,
   tags: ['pm'],
@@ -39628,6 +39866,23 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch",
     id: "fetch-plus.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "JSON Array",
+    id: "jsonarray.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/JSON-Array.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/JSON-Array.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Super Fast JSON and Array extension Creator: SharkPool",
+    id: "jsonarray.description"
   }),
   incompatibleWithScratch: true,
   tags: ['se'],
