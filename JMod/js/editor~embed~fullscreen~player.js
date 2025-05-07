@@ -39861,7 +39861,7 @@ __webpack_require__.r(__webpack_exports__);
       APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
     }
   }),
-  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Plus.js',
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Progress.js',
   iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Fetch-Plus.svg",
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch",
@@ -40070,6 +40070,91 @@ __webpack_require__.r(__webpack_exports__);
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Read Elements and Create Events from the website HTML",
     id: "domselector.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Sharktilities",
+    id: "sharktilities.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sharktilities.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Sharktilities.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Various utility blocks for various operations Creator: SharkPool",
+    id: "sharktilities.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Seeds",
+    id: "seeds.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Seeds.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Seeds.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Generate random seeded numbers, generated terrain, and more Creator: SharkPool",
+    id: "seeds.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "GIF Manager",
+    id: "gif-manager.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/GIF-Manager.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/GIF-Manager.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Create and Split GIF Frames Creator: SharkPool",
+    id: "gif-manager.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Keys Plus V2",
+    id: "keys-plus-v2.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/KeysPlusV2.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Keys-Plus-V2.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Powerful and flexible Key detection Blocks with some additional features Creator: StackOverflow",
+    id: "keys-plus-v2.description"
+  }),
+  incompatibleWithScratch: true,
+  tags: ['se'],
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Keys Plus V2",
+    id: "pen-papers.name",
+    values: {
+      APP_NAME: _brand__WEBPACK_IMPORTED_MODULE_35__["APP_NAME"]
+    }
+  }),
+  extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pen-Papers.js',
+  iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Pen-Papers.svg",
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Create Multiple Pen Layers! Inspired by ObviousAlex  Creator: SharkPool",
+    id: "pen-papers.description"
   }),
   incompatibleWithScratch: true,
   tags: ['se'],
