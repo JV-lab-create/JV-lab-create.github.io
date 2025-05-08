@@ -1,4 +1,7 @@
 {
+    "title":"test vote",
+    "duedate":"???",
+    "maxvotes":3,
     "voteitems": {
         "test_1": {
             "image url": "https://corsproxy.io/?url=https://uploads.scratch.mit.edu/get_image/project/360719210_1000x1000.png",
