@@ -1,4 +1,4 @@
-(window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-settings~addons"],{
+(window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-settings~addons~editor~fullscreen~player"],{
 
 /***/ "./src/addons/addons/2d-color-picker/_manifest_entry.js":
 /*!**************************************************************!*\
@@ -1497,19 +1497,19 @@ const manifest = {
     "name": "Show experimental keys",
     "id": "experimentalKeys",
     "type": "boolean",
-    "default": false
+    "default": true
   }, {
     "dynamic": true,
     "name": "Show Shift keys",
     "id": "shiftKeys",
     "type": "boolean",
-    "default": false
+    "default": true
   }, {
     "dynamic": true,
     "name": "Show TurboWarp keys",
     "id": "twKeys",
     "type": "boolean",
-    "default": false
+    "default": true
   }],
   "userscripts": [{
     "url": "userscript.js"
@@ -5107,4 +5107,4 @@ class SettingsStore extends _event_target__WEBPACK_IMPORTED_MODULE_2__["default"
 /***/ })
 
 }]);
-//# sourceMappingURL=addon-settings~addons.js.map
+//# sourceMappingURL=addon-settings~addons~editor~fullscreen~player.js.map

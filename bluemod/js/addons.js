@@ -12,7 +12,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".pause-btn {\n  width: 2rem;\n  height: 2rem;\n  padding: 0.375rem;\n  border-radius: 0.25rem;\n  user-select: none;\n  user-drag: none;\n  cursor: pointer;\n}\n\n.pause-btn:hover {\n  background-color: var(--looks-light-transparent);\n}\n", ""]);
+exports.push([module.i, ".pause-btn {\n  width: 2rem;\n  height: 2rem;\n  padding: 0.375rem;\n  margin: 3px;\n  border-radius: 28%;\n  user-select: none;\n  user-drag: none;\n  cursor: pointer;\n  background-color: rgba(255, 208, 0, 0.144);\n}\n\n.pause-btn:hover {\n  background-color: rgba(255, 208, 0, 0.349);\n}\n", ""]);
 
 // exports
 
