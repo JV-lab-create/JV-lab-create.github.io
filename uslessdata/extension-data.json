@@ -1,6 +1,8 @@
 {
-  "InSupport": true,
   "NewestVersion": "1.0.0",
-  "Announcement": "Work in progress",
-  "UpdateUrl": null
+  "AnnouncementURL": "https://gist.githubusercontent.com/JV-lab-create/827f97ac81eb47ecccd4511cbc1d4424/raw/ef0b9b97510e13237a66173114936dc966c35413/AnnouncementBanner.html",
+  "CatalogUrlDark": "https://gist.githubusercontent.com/JV-lab-create/827f97ac81eb47ecccd4511cbc1d4424/raw/ef0b9b97510e13237a66173114936dc966c35413/ourGames_gamesSection_dark.html",
+  "CatalogUrlLight": "https://gist.githubusercontent.com/JV-lab-create/827f97ac81eb47ecccd4511cbc1d4424/raw/ef0b9b97510e13237a66173114936dc966c35413/ourGames_gamesSection_light.html",
+  "OtherCatalogUrlDark": "https://gist.githubusercontent.com/JV-lab-create/827f97ac81eb47ecccd4511cbc1d4424/raw/ef0b9b97510e13237a66173114936dc966c35413/ourGames_gamesSection_dark.html",
+  "OtherCatalogUrlLight": "https://gist.githubusercontent.com/JV-lab-create/827f97ac81eb47ecccd4511cbc1d4424/raw/ef0b9b97510e13237a66173114936dc966c35413/ourGames_gamesSection_light.html",
 }
