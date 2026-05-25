@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Utilities | Browndog7912</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Utilities" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="website" />
+<meta property="og:description" content="website" />
+<link rel="canonical" href="https://jv-lab-create.github.io/md/wiki/worldeditutils/" />
+<meta property="og:url" content="https://jv-lab-create.github.io/md/wiki/worldeditutils/" />
+<meta property="og:site_name" content="Browndog7912" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Utilities" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"website","headline":"Utilities","url":"https://jv-lab-create.github.io/md/wiki/worldeditutils/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+
+      <h1 id="utilities"><strong>Utilities</strong></h1>
+
+<p>WorldEdit provides a handful of utility commands. These are often conveniences for common tasks which would require multiple commands and selections otherwise. All these commands operate on your placement position. By default, this is your player position, but it can be changed to your first selection position using the /toggleplace command.</p>
+
+<h1 id="editing-nearby-blocks"><strong>Editing nearby blocks</strong></h1>
+
+<p>Sometimes you want to set or replace blocks in an area, but don’t need a precise selection - you just want to use an area around you.</p>
+
+<p>Removing blocks above and below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/removeabove \&lt;size\&gt; \[height\]
+
+/removebelow \&lt;size\&gt; \[depth\]`  
+</code></pre></div></div>
+
+<p>These two commands let you easily remove blocks above or below you. An example usage is to remove those tower blocks people create in order to get to a high point. The size parameter indicates the size of the cuboid to remove. The cuboid’s width and length will be <code class="language-plaintext highlighter-rouge">(size - 1) \* 2 + 1 </code>. The center of the cuboid is the block above the one that you are standing on. If you don’t specify a height or depth, the commands will extend to the extents of the world.</p>
+
+<p>Removing nearby blocks:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/removenear \&lt;mask\&gt; \&lt;size\&gt;
+
+</code></pre></div></div>
+
+<p>This command removes nearby blocks of a certain type. The size parameter indicates the size of the cuboid to remove. The cuboid’s width and length will be <code class="language-plaintext highlighter-rouge">(size - 1) \* 2 + 1 </code> The center of the cuboid is the block above the one that you are standing on.</p>
+
+<p>Replacing nearby blocks:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/replacenear \&lt;size\&gt; \&lt;mask\&gt; \&lt;pattern\&gt;
+
+</code></pre></div></div>
+
+<p>If you need to quickly replace nearby blocks, this command is a nice shortcut. The size parameter indicates the size of the cuboid to replace. The cuboid’s width and length will be <code class="language-plaintext highlighter-rouge">(size - 1) \* 2 + 1 </code> . The center of the cuboid is the block above the one that you are standing on.</p>
+
+<h1 id="filling-pits"><strong>Filling pits</strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+//fill \&lt;pattern\&gt; \&lt;radius\&gt; \[depth\]
+
+</code></pre></div></div>
+
+<p>The fill command will start at the your placement position and work outward and downward, filling air with the given pattern. Note that it only works straight downward from the starting layer, so while it will fill a pond, it will not fill a cave (that goes “outward” as it goes down).</p>
+
+<p>The fill command will never go upwards from your starting position.</p>
+
+<p>An irregularly shaped pool filled with <strong>//fill</strong>. You wouldn’t have been able to replace air with water (with <strong>/replace</strong>) in this situation because the area doesn’t fit neatly into a cuboid.</p>
+
+<h1 id="recursive-fill"><strong>Recursive Fill<a href="https://worldedit.enginehub.org/en/latest/usage/utilities/#recursive-fill">¶</a></strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+//fillr \&lt;pattern\&gt; \&lt;radius\&gt;
+
+</code></pre></div></div>
+
+<p>Unlike the fill command, the recursive fill command <em>will</em> work outwards as it moves down, meaning it can fill caves and other holes that expand into the walls.</p>
+
+<p>Like the fill command, it will not travel upwards beyond the starting y level.</p>
+
+<h1 id="draining-pools"><strong>Draining pools</strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+//drain \[-w\] \&lt;radius\&gt;
+
+</code></pre></div></div>
+
+<p>The drain command can empty a pool of water or lava. It only removes connected blocks from the starting position, so it will not drain non-connected pools even if they are in the radius.</p>
+
+<p>Adding the<code class="language-plaintext highlighter-rouge">-w</code>flag will also un-waterlog blocks, leaving them dry.</p>
+
+<blockquote>
+  <p>Note:
+<em>Some blocks, like kelp and seagrass, despite looking like they are waterlogged, do not &gt;actually have a “dry” state. If you’re trying to drain an ocean or river with these blocks, use</em></p>
+</blockquote>
+
+<h1 id="fixing-pools"><strong>Fixing pools</strong></h1>
+
+<p>``</p>
+
+<p>/fixwater &lt;radius&gt;</p>
+
+<p>/fixlava &lt;radius&gt;</p>
+
+<p>``</p>
+
+<p>This command will replace “flowing” versions of lava and water with “stationary” ones within the radius. This was useful for fixing water features that had been partially removed with buckets or blocks broken. Note that since Mojang changed water mechanics relatively recently, <code class="language-plaintext highlighter-rouge">fixwater </code> is much less useful than before.</p>
+
+<h1 id="simulating-snowfall"><strong>Simulating snowfall</strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/snow \&lt;radius\&gt;
+
+</code></pre></div></div>
+
+<p>Cover snow over the general area! This algorithm will only cover blocks with snow if they should be covered (for example, torch blocks will not be covered). If an area has something above it (like an overhang), snow will not reach it. “Snowfall” is completely vertical.</p>
+
+<blockquote>
+  <p>Note
+The snow command douse not yet build up layers of snow</p>
+</blockquote>
+
+<h1 id="thawing-snow"><strong>Thawing snow</strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/thaw \&lt;radius\&gt;
+
+</code></pre></div></div>
+
+<p>This command works exactly in the opposite way as the <code class="language-plaintext highlighter-rouge">/snow</code> command above, removing snow and ice from exposed areas.</p>
+
+<h1 id="simulating-grass-growth"><strong>Simulating grass growth<a href="https://worldedit.enginehub.org/en/latest/usage/utilities/#simulating-grass-growth">¶</a></strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/green \[-f\] \&lt;radius\&gt;
+
+</code></pre></div></div>
+
+<p>Cover grass over the general area! This area works horizontally outwards to convert dirt into grass.</p>
+
+<p>Using the <code class="language-plaintext highlighter-rouge">-f</code> flag will also turn coarse dirt into grass as well as regular dirt.</p>
+
+<h1 id="extinguishing-fires"><strong>Extinguishing fires<a href="https://worldedit.enginehub.org/en/latest/usage/utilities/#extinguishing-fires">¶</a></strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/ex \[radius\]
+
+</code></pre></div></div>
+
+<p>This is essentially a shortcut  <code class="language-plaintext highlighter-rouge">/removenear fire \&lt;radius\&gt;</code>, to allow you to quickly put out fires.</p>
+
+<h1 id="removing-mobs"><strong>Removing mobs<a href="https://worldedit.enginehub.org/en/latest/usage/utilities/#removing-mobs">¶</a></strong></h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/butcher \[-pngabtfl\] \[radius\]
+
+</code></pre></div></div>
+
+<p>This command removes nearby mobs. If you don’t specify a radius, all active mobs in the entire loaded world will be removed. The mobs will not drop their loot. Be aware that even if you kill all mobs, they will come back quickly if there isn’t anything else preventing spawning.</p>
+
+<p>Butcher flags:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Flag</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">-p</td>
+      <td style="text-align: left">Kills tamed pets</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-n</td>
+      <td style="text-align: left">Kills NPCs</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-g</td>
+      <td style="text-align: left">Kills golems</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-a</td>
+      <td style="text-align: left">Kills animals</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-b</td>
+      <td style="text-align: left">Kills ambient mobs</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-t</td>
+      <td style="text-align: left">Kills mobs with name tags</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-f</td>
+      <td style="text-align: left">Combines all the above flags</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">-r</td>
+      <td style="text-align: left">Kills armor stands</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>All the infomation is coppyed from: <a href="https://worldedit.enginehub.org/en/latest/usage/utilities/">Orignal Source</a> put into a mark down format</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
